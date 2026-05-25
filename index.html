@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Dial — Магазин часов</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>WORLD DIAL</h1>
+        <p>Ваше время — наша забота. Доставляем эксклюзивные часы из любой точки мира.</p>
+    </header>
+
+    <section class="banner">
+        <div class="banner-content">
+            <h2>Найдите свои идеальные часы</h2>
+            <button class="btn-more">Узнать больше</button>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature-item">
+            <span class="material-symbols-outlined">verified_user</span>
+            <h3>Качество</h3>
+            <p>Только оригинальные механизмы и международные сертификаты подлинности.</p>
+        </div>
+        <div class="feature-item">
+            <span class="material-symbols-outlined">local_shipping</span>
+            <h3>Доставка</h3>
+            <p>Безопасная застрахованная доставка ценных грузов в любую точку мира.</p>
+        </div>
+        <div class="feature-item">
+            <span class="material-symbols-outlined">support_agent</span>
+            <h3>Поддержка</h3>
+            <p>Персональный эксперт-консультант на связи с вами 24 часа 7 дней в неделю.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about-section fade-in">
+        <h2>О нашем проекте</h2>
+        <div class="about-content">
+            <h3>Наша история</h3>
+            <p>World Dial начинался как закрытый клуб ценителей редких часовых механизмов, переросший в международный сервис.</p>
+            <h3>Наша миссия</h3>
+            <p>Предоставить коллекционерам доступ к самым дефицитным и лимитированным сериям без рисков и долгих ожиданий.</p>
+            <h3>Наша команда</h3>
+            <p>Каждый наш сотрудник — сертифицированный эксперт, способный определить подлинность механизма до мельчайших деталей.</p>
+            <img src="images/about-workshop.jpg" alt="Мастерская" class="about-img">
+        </div>
+    </section>
+
+    <section class="team-gallery">
+        <h2>Наша команда и офис</h2>
+        <div class="scroll-container">
+            <div class="team-card">
+                <img src="images/team1.jpg" alt="Александр">
+                <p>Александр — Основатель проекта</p>
+            </div>
+            <div class="team-card">
+                <img src="images/team2.jpg" alt="Елена">
+                <p>Марк — Главный часовой эксперт</p>
+            </div>
+            <div class="team-card">
+                <img src="images/team3.jpg" alt="Марк">
+                <p>Елена — Ведущий реставратор</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <h2>Отзывы клиентов</h2>
+        <div class="reviews-container">
+            <div class="review-item">
+                <img src="images/user1.jpg" alt="Игорь">
+                <blockquote>"Лучший сервис по подбору редких моделей Audemars Piguet. Доставили в Москву за неделю со всеми документами."</blockquote>
+                <cite>— Дмитрий Шайбинов</cite>
+            </div>
+            <div class="review-item">
+                <img src="images/user2.jpg" alt="Анна">
+                <blockquote>"Очень доволен качеством обслуживания. Экспертиза на высшем уровне, самый лучший сервис в котором я заказывал часы, ждите ещё!"</blockquote>
+                <cite>— Николай Петрович </cite>
+            </div>
+        </div>
+    </section>
+
+    <section class="price-section">
+        <h2>Характеристики и цены</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Модель</th>
+                        <th>Материал</th>
+                        <th>Механизм</th>
+                        <th>Цена</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rolex Submariner Date</td>
+                        <td>Сталь Oystersteel</td>
+                        <td>Механика (Калибр 3235)</td>
+                        <td>$10,500</td>
+                    </tr>
+                    <tr>
+                        <td>Omega Speedmaster Moonwatch</td>
+                        <td>Сталь</td>
+                        <td>Механика (Ручной завод)</td>
+                        <td>$7,600</td>
+                    </tr>
+                    <tr>
+                        <td>Audemars Piguet Royal Oak</td>
+                        <td>Сталь</td>
+                        <td>Автоподзавод</td>
+                        <td>$38,000</td>
+                    </tr>
+                    <tr>
+                        <td>Patek Philippe Nautilus 5711</td>
+                        <td>Сталь</td>
+                        <td>Автоподзавод</td>
+                        <td>$120,000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="products">
+        <h2>Каталог продукции</h2>
+        <div class="cards-container">
+            <div class="card" data-title="Rolex Submariner" data-img="images/rolex.jpg">
+                <img src="images/rolex.jpg" alt="Rolex Submariner">
+                <div class="card-info">
+                    <h3>Rolex Submariner</h3>
+                    <p>Эталон дайверских часов.</p>
+                </div>
+            </div>
+            <div class="card" data-title="Patek Philippe Nautilus" data-img="images/patek.jpg">
+                <img src="images/patek.jpg" alt="Patek Philippe Nautilus">
+                <div class="card-info">
+                    <h3>Patek Philippe Nautilus</h3>
+                    <p>Легендарный спортивный шик.</p>
+                </div>
+            </div>
+            <div class="card" data-title="Audemars Piguet Royal Oak" data-img="images/ap.jpg">
+                <img src="images/ap.jpg" alt="Audemars Piguet Royal Oak">
+                <div class="card-info">
+                    <h3>Audemars Piguet Royal Oak</h3>
+                    <p>Революционный стальной дизайн.</p>
+                </div>
+            </div>
+            <div class="card" data-title="Omega Speedmaster" data-img="images/omega.jpg">
+                <img src="images/omega.jpg" alt="Omega Speedmaster">
+                <div class="card-info">
+                    <h3>Omega Speedmaster</h3>
+                    <p>Официальные лунные часы.</p>
+                </div>
+            </div>
+            <div class="card" data-title="Cartier Santos" data-img="images/cartier.jpg">
+                <img src="images/cartier.jpg" alt="Cartier Santos">
+                <div class="card-info">
+                    <h3>Cartier Santos</h3>
+                    <p>Первые мужские наручные часы.</p>
+                </div>
+            </div>
+            <div class="card" data-title="Tissot Le Locle" data-img="images/tissot.jpg">
+                <img src="images/tissot.jpg" alt="Tissot Le Locle">
+                <div class="card-info">
+                    <h3>Tissot Le Locle</h3>
+                    <p>Классические швейцарские традиции.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img id="modal-img" src="" alt="">
+            <h2 id="modal-title"></h2>
+            <p>Для оформления быстрого заказа заполните форму ниже. Наш эксперт свяжется с вами в течение 5 минут для подтверждения брони.</p>
+            <form id="quickOrderForm">
+                <input type="text" id="quickName" placeholder="Ваше имя" required>
+                <input type="tel" id="quickPhone" placeholder="Ваш телефон" required>
+                <button type="submit" id="quickSubmitBtn">Заказать в 1 клик</button>
+            </form>
+            <p id="quickResponseMessage"></p>
+        </div>
+    </div>
+
+    <section class="map-section">
+        <h2>Мы на карте</h2>
+        <div class="map-container">
+            <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=37.5250%2C55.8000%2C37.5450%2C55.8150&amp;layer=mapnik&amp;marker=55.8085%2C37.5352" width="100%" height="400" style="border: 0;"></iframe>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Наши контакты</h2>
+                <div class="contact-item">
+                    <span class="material-symbols-outlined animated-icon">location_on</span>
+                    <p>г. Москва, ул. Часовая, д. 10</p>
+                </div>
+                <div class="contact-item">
+                    <span class="material-symbols-outlined animated-icon">call</span>
+                    <p>+7 (993) 999-66-44</p>
+                </div>
+                <div class="contact-item">
+                    <span class="material-symbols-outlined animated-icon">mail</span>
+                    <p>info@worlddial.ru</p>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <h2>Напишите нам</h2>
+                <form id="feedbackForm">
+                    <input type="text" id="name" placeholder="Ваше имя" required>
+                    <input type="email" id="email" placeholder="Ваш Email" required>
+                    <textarea id="message" placeholder="Сообщение" rows="4" required></textarea>
+                    <button type="submit" id="submitBtn">Отправить</button>
+                </form>
+                <p id="responseMessage"></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="video-section">
+        <h2>Видео-презентация</h2>
+        <div class="video-container">
+            <iframe src="https://vkvideo.ru/video_ext.php?oid=-211261107&id=456239750&hash=96e849918343704a" width="100%" height="450" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="magic-section">
+        <button id="magicBtn">Нажми меня</button>
+    </section>
+
+    <footer>
+        <div class="footer-contacts">
+            <a href="tel:+79939996644">Тел: +7 (993) 999-66-44</a>
+            <a href="mailto:info@worlddial.ru">Email: info@worlddial.ru</a>
+            <div class="socials">
+                <a href="#">Telegram</a>
+                <a href="#">WhatsApp</a>
+                <a href="#">VK</a>
+            </div>
+        </div>
+        <p>&copy; 2026 World Dial. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
